@@ -3,7 +3,7 @@ import pandas as pd
 
 # 폴더 경로 지정
 folder_path = "/CSV폴더/"  # 통합하려는 CSV 파일들이 있는 폴더 경로로 변경
-output_file = "파일이름름.csv"  # 통합된 파일 이름
+output_file = "파일이름.csv"  # 통합된 파일 이름
 
 # 폴더 내 파일 목록 가져오기
 file_list = [f for f in os.listdir(folder_path) if f.endswith('.csv')]
